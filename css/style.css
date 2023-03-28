@@ -480,6 +480,14 @@ a:focus {
   font-size: 15px;
 }
 
+.info_section h1{
+  text-align: center;
+  background: blue;
+}
+.info_section table{
+text-align: center;
+}
+
 /* end info section */
 
 
@@ -502,3 +510,6 @@ a:focus {
 }
 
 /* end footer section*/
+h1{
+  text-align: center;
+}

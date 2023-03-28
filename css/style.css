@@ -1,7 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #000000;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 
 .layout_padding {
@@ -313,6 +313,9 @@ a:focus {
 
 
 
+
+
+
 /* tasty section */
 
 .tasty_section {
@@ -398,7 +401,7 @@ a:focus {
 /* contact section */
 
 .contact_section {
-  background-image: url(../images/call-center-guy.png);
+  background-image: url(../images/orange-dish.png);
   background-repeat: no-repeat;
   background-size: 215px;
   background-position: right center;
@@ -499,18 +502,3 @@ a:focus {
 }
 
 /* end footer section*/
-#galeria .col-lg-4 {
-  margin 0 !important;
-  padding: 25px;
-}
-
-#galeria img{
-  width: 100%;
-  height: 250px;
-
-}
-
-#galeria img:hover {
-  border: 5px solid #f7f7f7;
-}
-

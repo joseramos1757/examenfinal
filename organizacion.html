@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    <script language="JavaScript">
-        funcionpulsar () {
-            alert("somos la mejor empresa");
-        }
-    </script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,10 +51,22 @@
         </div>
 
       </div>
-      <center><input type="button" name="boton" value="LEMA" onclick="funcionpulsar()"></center> 
+      <center>
+      <button onclick="alertar('SIEMPRE ADELANTE');">
+        LEMA
+      </button>
+      <script type="text/javascript">
+          function alertar(texto) {
+             alert(texto);
+          }
+      </script>
+      </center>
 
     </section>
-    
+</script>
+<!-- google map js -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+</script>
 
 </body>
 </html>
